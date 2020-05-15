@@ -73,6 +73,10 @@ public class Player : Charactors
             direction += Vector2.right;
             animator.SetFloat("running", Mathf.Abs(Facedirection));
         }
+        if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+        {
+            animator.SetFloat("running",(float)0);
+        }
         if (Input.GetKeyDown(KeyCode.Space))   PlayerJump();
         if (Input.GetMouseButtonDown(0)) GunShoot();
         //if (Input.GetKeyDown(KeyCode.E)) DavidDoy();
