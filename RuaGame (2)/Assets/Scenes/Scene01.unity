@@ -628,7 +628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 2
   Bullet: {fileID: 2126727208}
-  animator: {fileID: 0}
+  animator: {fileID: 310676124}
   bloodvolume: 100
 --- !u!70 &310676122
 CapsuleCollider2D:
